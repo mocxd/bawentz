@@ -40,6 +40,10 @@
           	visibility: hidden;
           }
 
+          .spacer {
+            min-height: 50px;
+          }
+
           /* footer... */
 
           footer {

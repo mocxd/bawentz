@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 023 Black Lips and Bruises
-category: gal1
+category: gal2
 
 excerpt: 
 

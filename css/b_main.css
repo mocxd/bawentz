@@ -44,6 +44,22 @@
             min-height: 50px;
           }
 
+          iframe.iframe-xs {
+            display: none;
+          }
+
+          @media (max-width: 768px) {
+
+            iframe.iframe-lg {
+              display: none;
+            }
+
+            iframe.iframe-xs {
+              display: inline;
+            }
+
+          }
+
           /* footer... */
 
           footer {

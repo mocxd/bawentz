@@ -229,12 +229,13 @@ nav.primary .toplinks {
 .navbutton {
     visibility: hidden;
     position: absolute;
-    right: 5px;
+    right: 20px;
     top: 18px;
+    font-size: 1.2em;
 }
 
 /* nav menu toggle */
-@media (max-width: 768px) {
+@media (max-width: 639px) {
     .navlinks {
         visibility: hidden;
     }

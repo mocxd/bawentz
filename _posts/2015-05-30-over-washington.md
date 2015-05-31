@@ -3,7 +3,7 @@ layout: post
 title: 012 Over Washington - Balloon Festival
 category: gal1
 
-excerpt: derp
+excerpt: 
 
 media: Original collage
 size: 12x12&quot; floating frame

@@ -58,14 +58,21 @@
            font-size: .8em;
          }
 
-         footer .fa {
+         footer .fa-circle {
           font-size: 6px;
           position: relative;
           top: -2px;
           margin: 0 8px 0 8px;
         }
 
-        /* ...stick damnit */
+        footer .fa-code {
+          font-size: 11px;
+          position: relative;
+          top: -0px;
+          margin: 0 8px 0 8px;
+        }
+
+        /* ...stick dammit */
 
 
         html, body {

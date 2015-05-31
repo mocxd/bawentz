@@ -1,0 +1,14 @@
+	jQuery.each ( figs, function( i, val ) {
+		
+	});
+
+$(document).ready(function() {
+	
+	$("section").fadeIn(1000);
+
+});
+
+
+setTimeout(function() {
+
+			}, 1000 * i); // duration between fadeins

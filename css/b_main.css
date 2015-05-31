@@ -39,3 +39,38 @@
           .hidden {
           	visibility: hidden;
           }
+
+          /* footer... */
+
+          footer {
+               min-height: 25px;
+               border-top: solid 4px black;
+               border-bottom: solid 0px #000;
+               background-color: #e0e0d0;
+               text-align: center;
+               padding: 2px 0 0 0;
+               margin: 50px 0 0 0;
+          }
+
+          footer .foottxt {
+           font-family: "Raleway", Arial, sans-serif;
+           font-weight: 400;
+           font-size: .8em;
+      }
+
+      /* ...stick damnit */
+
+
+      html, body {
+        height: 100%;
+   }
+
+   .super {
+        min-height: 100%;
+        margin-bottom: -25px; 
+   }
+
+   .super:after {
+        content: "";
+        display: block;
+   }

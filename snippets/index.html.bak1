@@ -1,3 +1,6 @@
+---
+title: Arting like a hacker
+---
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,8 +19,6 @@
 
 <body>
 
-    <div class="super">    <!-- </div> in bot.html -->
-
     <nav class="primary">
 
         <div class="clearfix">
@@ -27,7 +28,7 @@
             </div>
 
             <div class="navbutton">
-                <i class="fa fa-bars"></i>
+                dfsdff
             </div>
 
             <div class="navlinks clearfix">
@@ -37,10 +38,10 @@
                             <a class="topa" href="#" id="cat1">Collage<span class="pointy" id="pointy1"></span></a>
                             <ul class="sublinks clearfix" id="sub1">
                                 <li>
-                                    <a href="gallery1.html">Gallery 1</a>
+                                    <a href="#">Gallery 1</a>
                                 </li>
                                 <li>
-                                    <a href="gallery2.html">Gallery 2</a>
+                                    <a href="#">Gallery 2</a>
                                 </li>
                             </ul>
 
@@ -92,37 +93,22 @@
         </div>
     </div>
 
-<main>
-    <!-- jekyll content here -->
-    
-    <section class="galleryitem">
-        <figure>
-            <p><img src="img/gal/012.jpg" /></p>
+    <main>
+        <!-- jekyll content here -->
+        {% for post in site.categories.gal1 %}
+        {{ post.content }}
+        {% endfor %}
 
-        </figure>
-        <figcaption>
-            <h1>012 Over Washington - Balloon Festival</h1>
-            <p>Original collage</p>
-            <p>12x12&quot; floating frame</p>
-            <p>2015</p>
-            <p class="price">$360</p>
-        </figcaption>
-    </section>
-    
+    </main>
 
-</main>
+    <footer>
+        <span class="foottxt">Site Design - <a href="http://tokija.com">Tokija</a></span>
+    </footer>
 
-</div> <!-- .super -->
-
-<footer>
-	<span class="foottxt">Site - <a href="http://tokija.com">Tokija</a></span>
-</footer>
-
-
-<!-- js fastload -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script type="text/javascript" src="js/navpanel.js"></script>
-<script type="text/javascript" src="js/gal.js"></script>
+    <!-- js fastload -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/navpanel.js"></script>
+    <script type="text/javascript" src="js/gal.js"></script>
 
 </body>
 </html>

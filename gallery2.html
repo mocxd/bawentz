@@ -1,0 +1,26 @@
+---
+title: Gallery 2
+---
+
+{% include top.html %}
+
+<main>
+	<!-- jekyll content here -->
+	{% for post in site.categories.gal2 %}
+	<section class="galleryitem">
+		<figure>
+			{{ post.content }}
+		</figure>
+		<figcaption>
+			<h1>{{ post.title }}</h1>
+			<p>{{ post.media }}</p>
+			<p>{{ post.size }}</p>
+			<p>{{ post.year }}</p>
+			<p class="price">{{ post.price }}</p>
+		</figcaption>
+	</section>
+	{% endfor %}
+
+</main>
+
+{% include bot.html %}

@@ -2,40 +2,40 @@
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-}*/
+          }*/
 
-html {
-	background: url(img/bg01.png) no-repeat center 50px scroll;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-color: #f9f9f9;
-}
+          html {
+          	background: url(../img/bg01.jpg) no-repeat center 50px scroll;
+          	-webkit-background-size: cover;
+          	-moz-background-size: cover;
+          	-o-background-size: cover;
+          	background-size: cover;
+          	background-color: #f9f9f9;
+          }
 
-body {
-	overflow-x: hidden;
-	padding: 0;
-	margin: 0;
-}
+          body {
+          	overflow-x: hidden;
+          	padding: 0;
+          	margin: 0;
+          }
 
-* {
-	margin: 0;
-}
+          * {
+          	margin: 0;
+          }
 
-a {
-	text-decoration: none;
-}
+          a {
+          	text-decoration: none;
+          }
 
-a img {
-	border: 0;
-}
+          a img {
+          	border: 0;
+          }
 
-main {
-	padding: 25px;
-	text-align: center;
-}
+          main {
+          	padding: 25px;
+          	text-align: center;
+          }
 
-.hidden {
-	visibility: hidden;
-}
+          .hidden {
+          	visibility: hidden;
+          }

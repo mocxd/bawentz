@@ -5,7 +5,7 @@
           }*/
 
           html {
-          	background: url(/img/bg01.jpg) no-repeat center 50px scroll;
+          	background: url(../img/bg01.jpg) no-repeat center 50px scroll;
           	-webkit-background-size: cover;
           	-moz-background-size: cover;
           	-o-background-size: cover;

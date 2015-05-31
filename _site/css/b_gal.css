@@ -1,9 +1,9 @@
 .galleryitem {
 	display: inline-block;
 	min-width: 200px;
-	max-width: 550px;
+	max-width: 400px;
 	background-color: #efefe0;
-	border: solid 1px #444;
+	border: solid 8px #444;
 	box-shadow: 1px 1px 1px #333;
 	margin: 40px 25px 25px 25px;
 }
